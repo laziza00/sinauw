@@ -689,65 +689,71 @@ body {
 }
 
 
- #site-footer{
-  border-top: 1px solid var(--border-color);
-  margin-top: 20px;
-}
-.footer-inner{
-  padding: 64px 10px 30px 10px;
-}
-.purple{
-  background-color: #bc4fe2;
-}
-.green{
-  background-color: #479139;
-}
-.yellow{
-  background-color: #a7772a;
+
+.site-footer{
+  padding-top: 48px ;
 }
 .footer-logo{
-  width: 100px;
-  height: 30px;
-  background-image: var(--logo-img);
-  background-size: cover;
-  margin-bottom: 20px;
-}
-.footer-desc{
-  width: 360px;
-  flex-grow: 1;
+  margin-bottom: 8px;
 }
 .footer-text{
-  line-height: 1.5;
-  margin-bottom: 100px;
-  width: 360px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.6;
+  margin-bottom: 24px;
+  width: 234px;
 }
-.footer-nav{
-  width: 200px;
+.bxl-facebook,
+.bxl-twitter,
+.bxl-instagram{
+  font-size: 24px;
+}
+.social:not(:last-child){
+  margin-right: 40px;
+}
+.footer-title{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+.footer-item{
+  margin-bottom: 20px;
 }
 .footer-link{
   text-decoration: none;
-  color: var(--text-color);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
 }
-.footer-link:hover{
-  color: #0057ff;
+.footer-link-box:not(:last-child){
+  margin-right: 80px;
 }
-.footer-item{
-  margin-bottom: 16px;
+.footer-info {
+  margin-right: 140px;
 }
-.footer-title{
+.footer-inner{
+  margin-bottom: 86px;
+}
+.copy-text{
   margin-bottom: 30px;
-  font-size: 18px;
-  font-weight: 500;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8F91D0;
+  text-align: center;
 }
-.footer-end{
-  margin-bottom: 50px;
+.copy-text span{
+  border: 2px solid #8F91D0;
+  border-radius: 50%;
+  width: 16px;
+  text-align: center;
+  align-items: center;
+  height: 16px;
+  margin: 0 4px;
 }
-.socials-link:hover{
-  color: #0057ff;
-}
-.bxl-instagram{
-  color: var(--text-color);
-}
-
