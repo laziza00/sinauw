@@ -683,7 +683,9 @@ body {
  .aside-inner{
    padding: 40px 100px;
  }
-
+.google{
+  margin-right: 25px;
+}
 
 
  #site-footer{
