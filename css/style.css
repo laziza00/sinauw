@@ -197,8 +197,9 @@ body {
   transition: all 04.s ease;
 }
 .suggest-link:hover{
-  color: #F5443B;
-    outline: 1px solid #F5443B;
+  color: #282B57;
+  background-color:#bbbbc48c;
+    outline: 1px solid  #fff;
     transition: all 04.s ease;
 }
 
