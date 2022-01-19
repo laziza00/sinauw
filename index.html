@@ -5,13 +5,451 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>sinauw</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner row middle">
+          <div class="header-logo">
+          </div>
+          <nav class="header-nav">
+            <ul class="nav-list style-none row middle">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  courses
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  webinar
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  pricing
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="log-eng row middle">
+            <div class="eng-box row middle">
+              <select class="select" name="Lang" id="Lang"> 
+                  <option class="option" value="0">Eng</option>
+                  <option class="option" value="1">Rus</option>
+                  <option class="option" value="2">Uz</option>
+              </select> 
+              <img class="spider-img" src="images/globe.svg" alt="img" width="20" height="20">
+          </div>
+          <a class="login" href="#">login</a>
+        </div>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-inner row middle between">
+          <div class="hero-img col-6">
+            <div class="lamp-box"></div>
+            <div class="book-box"></div>
+            <img class="img-hero" src="images/hero-img.png" alt="img" width="685" height="752">
+            <div class="join-box">
+              <ul class="join-list style-none row middle">
+                <li class="join-item"></li>
+                <li class="join-item"></li>
+                <li class="join-item"></li>
+                <li class="join-item"></li>
+                <li class="join-item">
+                  <button class="join-btn">
+                    <i class='bx bx-plus'></i>
+                  </button>
+                </li>
+              </ul>
+
+              <p class="join-text">More than 80k+ 
+                Students <span>joined!</span>
+               </p>
+            </div>
+          </div>
+          <div class="hero-info col-6">
+              <h1 class="hero-title">
+                Grow Your Skills To Advance Your Career Path.
+              </h1>
+              <p class="hero-text">We have something big for you who want to level up!</p>
+              <div class="input-box row middle between">
+                <input class="input" type="text" placeholder="What do you want to learn...">
+                <button class="inp-btn">
+                  <i class='bx bx-search-alt-2'></i>
+                </button>
+              </div>
+              <p class="text-suugest">Suggestions</p>
+              <ul class="suggest-list style-none">
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    UI UX Design
+                  </a>
+                </li>
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    CSS Fundamental
+                  </a>
+                </li>
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    3D Design Illustration
+                  </a>
+                </li>
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    Website Development
+                  </a>
+                </li>
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    Logo Design
+                  </a>
+                </li>
+                <li class="suggest-item">
+                  <a class="suggest-link text-none" href="#">
+                    Icon Design
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <ul class="heroexpert-list style-none row middle between">
+          <li class="expert-item row">
+            <div class="expert-box">
+              <img class="expert-img" src="images/community.svg" alt="img" width="22" height="18">
+            
+            </div>
+            <div>
+              <h2 class="expert-title">Get New Friends</h2>
+              <p class="expert-text">You will meet new friends in some of classes that you take. Say hello to them and make friends, it will be so much warm friendship!</p>
+            </div>
+        
+          </li>
+          <li class="expert-item row">
+            <div class="expert-box ">
+              <img class="expert-img comun-box" src="images/person.svg" alt="img" width="22" height="18">
+            
+            </div>
+            <div>
+              <h2 class="expert-title">Expert and Fun Mentor</h2>
+              <p class="expert-text">Learn with earnest and don’t forget to get relax too. Learn and enjoy the materials or classes with our expert mentors.</p>
+            </div>
+        
+          </li>
+          <li class="expert-item row">
+            <div class="expert-box">
+              <img class="expert-img  person-box" src="images/heart.svg" alt="img" width="22" height="18">
+             
+            </div>
+            <div>
+              <h2 class="expert-title">Flexible Access</h2>
+              <p class="expert-text">You can access materials or classes easily by our website also mobile. Access it everywhere and everytime, no limit for you to learn!</p>
+            </div>
+        
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="learn-section">
+      <div class="container">
+        <div class="learn-inner">
+          <h2 class="learn-title">What Do You Want to Learn?</h2>
+          <p class="learn-text">Choose the right class as you need. Then enjoy studying.</p>
+
+          <ul class="learn-list style-none row middle between">
+            <li class="learn-item lern-item-item">
+              <img class="learn-img" src="images/learn-1.svg" alt="img" width="252" height="169">
+              <h4 class="learn-item-title">Technology</h4>
+              <p class="learn-big-title">Digital Marketing Strategy</p>
+              <p class="learn-item-text">This course aims to give you deeper understanding of core processes ...</p>
+              <hr class="hr-line">
+              <div class="learn-little-box row middle">
+                <img class="job-img" src="images/job1.png" alt="img" width="40" height="40">
+                  <div class="person-box">
+                    <p class="learn-name">Joey Piere</p>
+                    <p class="learn-job">Mentor</p>
+                  </div>
+              </div>
+              <a class="learn-link" href="#">Access class</a>
+            </li>
+            <li class="learn-item">
+              <img class="learn-img" src="images/learn2.svg" alt="img" width="252" height="169">
+              <h4 class="learn-item-title">Design</h4>
+              <p class="learn-big-title">Figma Fundamental</p>
+              <p class="learn-item-text">These lessons and exercises will help you start designing with Figma ...</p>
+              <hr class="hr-line">
+              <div class="learn-little-box row middle">
+                <img class="job-img" src="images/job2.png" alt="img" width="40" height="40">
+                  <div class="person-box">
+                    <p class="learn-name">Araya Sheila</p>
+                    <p class="learn-job">Mentor</p>
+                  </div>
+              </div>
+              <a class="learn-link active-link" href="#">Access class</a>
+            </li>
+            <li class="learn-item">
+              <img class="learn-img" src="images/learn3.svg" alt="img" width="252" height="169">
+              <h4 class="learn-item-title">Coding</h4>
+              <p class="learn-big-title">HTML Fundamental</p>
+              <p class="learn-item-text">Well organized and easy to make you understand tutorials with lots of ...</p>
+              <hr class="hr-line">
+              <div class="learn-little-box row middle">
+                <img class="job-img" src="images/job3.png" alt="img" width="40" height="40">
+                  <div class="person-box">
+                    <p class="learn-name">Ellisa Ruth</p>
+                    <p class="learn-job">Mentor</p>
+                  </div>
+              </div>
+              <a class="learn-link active-link" href="#">Access class</a>
+            </li>
+            <li class="learn-item">
+              <img class="learn-img" src="images/learn4.svg" alt="img" width="252" height="169">
+              <h4 class="learn-item-title">Coding</h4>
+              <p class="learn-big-title">Android App Development</p>
+              <p class="learn-item-text">Take your Android coding skills to the next level, advanced Android app ...</p>
+              <hr class="hr-line">
+              <div class="learn-little-box row middle">
+                <img class="job-img" src="images/job4.png" alt="img" width="40" height="40">
+                  <div class="person-box">
+                    <p class="learn-name">Wendy Troye</p>
+                    <p class="learn-job">Mentor</p>
+                  </div>
+              </div>
+              <a class="learn-link active-link" href="#">Access class</a>
+            </li>
+          </ul>
+          <a class="show-link" href="#">Show All Classes</a>
+        </div>
+      </div>
+    </section>
+    <section class="webinar-section">
+      <div class="container">
+        <div class="web-inner">
+          <h2 class="learn-title web-title">Live Online Webinar</h2>
+          <p class="learn-text web-text">You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!</p>
+          <iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/ZVAWYyBU2A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a class="see-more row middle" href="#">See more webinar videos <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="learn-section price-section">
+      <div class="container">
+        <div class="learn-inner price-inner">
+          <h2 class="learn-title">Course Pricing</h2>
+          <p class="learn-text">Choose pricing that suits to your need.</p>
+
+          <ul class="price-list row between middle style-none">
+            <li class="price-item">
+            
+              <div class="row middle">
+                <div class="price-img-box">
+                  <img class="price-img star-img" src="images/price-star.svg" alt="img" width="36" height="36">
+                </div>
+               
+                <div class="speed-box">
+                  <p class="price-name">Free</p>
+                  <div class="zero-box row middle">
+                    <p class="speed">$</p>
+                    <p class="speed2">0</p>
+                    <p class="month">/month</p>
+                  </div>
+                </div>
+
+              </div>
+              <hr class="hr-line speed-line">
+              <ul class="speed-list ">
+                  <li class="speed-item">
+                    Free e-book for every class
+                  </li>
+                  <li class="speed-item">
+                    Materials update every day
+                  </li>
+                  <li class="speed-item">
+                    Free download material videos
+                  </li>
+                  <li class="speed-item">
+                    Unlock 5 material videos
+                  </li>
+              </ul>
+              <a class="show-link speed-link" href="#">Your Current Package</a>
+            </li>
+            <li class="price-item">
+            
+              <div class="row middle">
+                <div class="price-img-box">
+                  <img class="price-img key" src="images/key.svg" alt="img" width="36" height="36">
+                </div>
+               
+                <div class="speed-box">
+                  <p class="price-name">Express</p>
+                  <div class="zero-box row middle">
+                    <p class="speed">$</p>
+                    <p class="speed2">75</p>
+                    <p class="month">/month</p>
+                  </div>
+                </div>
+
+              </div>
+              <hr class="hr-line speed-line">
+              <ul class="speed-list ">
+                  <li class="speed-item">
+                    Free e-book for every class
+                  </li>
+                  <li class="speed-item">
+                    Materials update every day
+                  </li>
+                  <li class="speed-item">
+                    Free download material videos
+                  </li>
+                  <li class="speed-item">
+                    Meeting 2 times a week
+                  </li>
+                  <li class="speed-item">
+                    Unlock 15 material videos
+                  </li>
+              </ul>
+              <a class="show-link speed-link" href="#">Buy Express</a>
+            </li>
+            <li class="price-item">
+            
+              <div class="row middle">
+                <div class="price-img-box">
+                  <img class="price-img crown" src="images/crown.svg" alt="img" width="36" height="36">
+                </div>
+               
+                <div class="speed-box">
+                  <p class="price-name">Premium</p>
+                  <div class="zero-box row middle">
+                    <p class="speed">$</p>
+                    <p class="speed2">115</p>
+                    <p class="month">/month</p>
+                  </div>
+                </div>
+
+              </div>
+              <hr class="hr-line speed-line">
+              <ul class="speed-list ">
+                  <li class="speed-item">
+                    Free e-book for every class
+                  </li>
+                  <li class="speed-item">
+                    Materials update every day
+                  </li>
+                  <li class="speed-item">
+                    Free download material videos
+                  </li>
+                  <li class="speed-item">
+                    Unlock 5 material videos
+                  </li>
+                  <li class="speed-item">
+                    Unlock 5 material videos
+                  </li>
+                  <li class="speed-item">
+                    Unlock 5 material videos
+                  </li>
+                  <li class="speed-item">
+                    Unlock 5 material videos
+                  </li>
+              </ul>
+              <a class="show-link speed-link speed-active" href="#">Buy Premium</a>
+            </li>
+        
+             
+         
+          </ul>
+      
+        </div>
+      </div>
+    </section>
+<aside class="aside-box ">
+        <div class="container">
+          <div class="aside-inner row middle between">
+          <div class="aside-info">
+        <h2 class="aside-title">Get Our Apps, Now!</h2>
+        <p class="aside-text">Reach out our apps everywhere and everytime with Sinauw Mobile Application.</p>
+      </div>
+  <div class="aside-img">
+    <img src="images/aside-img.svg" alt="img" width="402" height="">
+  </div>
+</div>
+</div>
+</aside>
+<footer id="site-footer">
+  <div class="container">
+    <div class="footer-inner row between">
+     <div class="footer-desc">
+       <a href="#"><div class="footer-logo"></div></a>
+       <p class="footer-text">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
+       
+     </div>
+     <div class="footer-nav">
+       <p class="footer-title">Menu</p>
+       <ul class="footer-lis style-none">
+         <li class="footer-item"><a href="#" class="footer-link">Elements</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Tags</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Authors</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">404 page</a></li>
+       </ul>
+     </div>
+     <div class="footer-nav">
+       <p class="footer-title">Services</p>
+       <ul class="footer-lis style-none">
+         <li class="footer-item"><a href="#" class="footer-link">Membership</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Sign In</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Sign Up</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Account</a></li>
+       </ul>
+     </div>
+     <div class="footer-nav">
+       <p class="footer-title">Further Information</p>
+       <ul class="footer-lis style-none">
+         <li class="footer-item"><a href="#" class="footer-link">Tag page</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Author page</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+         <li class="footer-item"><a href="#" class="footer-link">Privacy</a></li>
+       </ul>
+     </div>
+    </div>
+    <div class="footer-nav">
+      <p class="footer-title">Apps Download</p>
+      <ul class="footer-lis style-none">
+        <li class="footer-item"><a href="#" class="footer-link">Tag page</a></li>
+        <li class="footer-item"><a href="#" class="footer-link">Author page</a></li>
+        <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+        <li class="footer-item"><a href="#" class="footer-link">Privacy</a></li>
+      </ul>
+    </div>
+   </div>
+    <div class="footer-end ">
+         <div class="row between">
+           <div class="socials row middle">
+             <ul class="socials-list row middle style-none">
+               <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-twitter' ></i></a></li>
+               <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-facebook'></i></a></li>
+               <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-instagram' ></i></a></li>
+               <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-github' ></i></a></li>
+             </ul>
+           </div>
+           <p class="copyright">© 2022 Arun Roy - All right Reserved. Published with Ghost</p>
+         </div>
+    </div>
+  </div>
+</footer>
+
 
   <script src="js/main.js"></script>
 </body>
